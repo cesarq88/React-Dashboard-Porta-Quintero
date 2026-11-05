@@ -72,6 +72,7 @@ const Users = () => {
       
 
       <button onClick={prePage} > ANTERIOR </button>
+      <span>{page}</span>
       <button onClick={nextPage} > SIGUIENTE </button>
 
      
